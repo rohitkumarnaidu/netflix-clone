@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: netflix-clone-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        fromDatabase:
+          name: netflix-clone-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGIN
+        value: https://your-frontend-domain.netlify.app
+
+databases:
+  - name: netflix-clone-db
+    databaseName: netflix-clone
+    user: netflix-user

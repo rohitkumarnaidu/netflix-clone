@@ -1,0 +1,50 @@
+[
+  {
+    "title": "The Silent Storm",
+    "description": "A mysterious storm engulfs a coastal town, revealing long-hidden secrets.",
+    "year": "2023",
+    "genre": "Mystery, Drama",
+    "isTrending": true,
+    "image": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/oJfZI4pXQQBQutHT15y0evJNGZv.jpg"
+  },
+  {
+    "title": "Neon Runner",
+    "description": "In a dystopian future, a courier discovers a secret that could change humanity.",
+    "year": "2022",
+    "genre": "Sci-Fi, Action",
+    "isTrending": true,
+    "image": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/vOERDHp6npROCgcrbfeAswKOwnU.jpg"
+  },
+  {
+    "title": "Echoes of Time",
+    "description": "An archaeologist uncovers a time-travel artifact buried beneath an ancient temple.",
+    "year": "2021",
+    "genre": "Adventure, Fantasy",
+    "isTrending": true,
+    "image": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg"
+  },
+  {
+    "title": "Lost Frequency",
+    "description": "A DJ receives broadcasts from another world and must decode their meaning.",
+    "year": "2024",
+    "genre": "Thriller, Sci-Fi",
+    "isTrending": true,
+    "image": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/c32TsWLES7kL1uy6fF03V67AIYX.jpg"
+  },
+  {
+    "title": "Before the End",
+    "description": "As a comet threatens Earth, five strangers find themselves connected by fate.",
+    "year": "2020",
+    "genre": "Drama, Thriller",
+    "isTrending": true,
+    "image": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/9tk3Si960hg4E49eMt81dS7Qe9Z.jpg"
+  },
+  {
+    "title": "The Codebreaker",
+    "description": "A brilliant hacker races to stop an AI system spiraling out of control.",
+    "year": "2023",
+    "genre": "Techno-Thriller, Action",
+    "isTrending": true,
+    "image": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/xJnbMTrJ2fl1AXAKx34U4BPvOhs.jpg"
+  }
+]
