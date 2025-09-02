@@ -43,7 +43,7 @@ This guide will walk you through deploying your Netflix Clone application with t
    ```
    NODE_ENV=production
    PORT=10000
-   MONGODB_URI=mongodb+srv://rohitbappadala:ctydvrtqn4df11v0@netflixclonecluster.u2y5yqg.mongodb.net/trendingmoives?retryWrites=true&w=majority&appName=NetflixCloneCluster
+   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/database?retryWrites=true&w=majority&appName=YourAppName
    JWT_SECRET=netflix-clone-super-secret-jwt-key-2024-production-change-this
    JWT_EXPIRE=7d
    CORS_ORIGIN=https://your-frontend-domain.netlify.app
