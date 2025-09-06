@@ -244,9 +244,8 @@ NODE_ENV=production npm start
 
 This project is licensed under the ISC License.
 
-## 🆘 Support
 
-For support, email [your-email] or create an issue in the repository.
+**Made with ❤️ by [Rohit](https://github.com/rohitkumarnaidu)**
 
 ---
 
