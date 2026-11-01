@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+// Native global fetch (Node.js >= 18)
 
 const BASE_URL = 'http://localhost:5000/api';
 let authToken = '';
