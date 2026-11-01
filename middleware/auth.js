@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
+const config = require('../config/config');
 
 // Protect routes - verify JWT token
 const protect = async (req, res, next) => {
@@ -19,8 +20,9 @@ const protect = async (req, res, next) => {
     }
 
     try {
-      // Verify token
-      const decoded = jwt.verify(token, process.env.JWT_SECRET);
+      // Verify token with explicit algorithm pinning (HS256)
+      const secret = process.env.JWT_SECRET || config.JWT_SECRET;
+      const decoded = jwt.verify(token, secret, { algorithms: ['HS256'] });
       
       // Get user from token
       const user = await User.findById(decoded.userId).select('-password');
